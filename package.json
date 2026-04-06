@@ -1,0 +1,29 @@
+{
+  "name": "consilience-weave",
+  "version": "0.0.1",
+  "description": "adudicate science many paths",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/healthscience/consilience-weave.git"
+  },
+  "keywords": [
+    "consilience",
+    "weave",
+    "science",
+    "maths"
+  ],
+  "author": "aboynejames",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/healthscience/consilience-weave/issues"
+  },
+  "homepage": "https://github.com/healthscience/consilience-weave#readme",
+  "devDependencies": {
+    "vitest": "^4.1.2"
+  }
+}
