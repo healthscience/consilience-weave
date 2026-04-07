@@ -12,14 +12,10 @@ describe('ScaleBridge Zoom Logic', () => {
   });
 
   it('should correlate micro and macro changes', () => {
-    // Micro up (Mitochondrial efficiency) -> Macro down (Swim time)
-    // Positive correlation (resonance)
     const micro = { change: 0.1 };
     const macro = { change: -0.02 };
     expect(sb.crossScaleCheck(micro, macro)).toBeGreaterThan(0);
 
-    // Micro up -> Macro up (Performance decrease)
-    // Negative correlation (dissonance)
     const badMacro = { change: 0.05 };
     expect(sb.crossScaleCheck(micro, badMacro)).toBeLessThan(0);
   });
